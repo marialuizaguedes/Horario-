@@ -4,10 +4,10 @@
              x:Class="horariodamalu.MainPage">
 
      <Grid>
-    <Image Source="image"
+    <Image Source="fundodia1.jpg"
            Opacity=".6"
            Aspect="AspectFill"/>
-    <Label Text="O Tempo em Tempo Real!!"
+    <Label Text="Sol"
            TextColor="blue"
            Margin="20"
            FontSize="60"
@@ -19,4 +19,48 @@
         VerticalOptions="End"
         Spacing="10"
         Margin="15,0,15,40">
+
+        <Frame x Name="frameSettings"
+        IsVisible="false"
+        Margin= "10,20"
+        Cornerradius="20"
+        BackgroundColor= "Gray" 
+        HorizontalOptions= "Fill"
+        VerticalOptions= "Fill"
+
+       <Grid>
+       <Grid.RowDefinitions>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+       <Grid.RowDefinitions>
+       <Grid.ColunmDefinitions>
+           <ColunmDefinition Width="*"/>
+           <ColunmDefinitio  Width="*"/>
+       <Grid.ColumnDefinitions>
+       <Label Text="Chuva"
+            TextColor="White"
+            Margin="20"
+            FontSize="40"
+            FontFamily="fonte.font"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            Grid.Row="0"
+            Grid.Colunm="0"/>   
+       <Label Text="LabelChuva"  
+            TextColor="White"
+            Margin="20"
+            FontSize="40"
+            FontFamily="fonte.font"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            Grid.Row="0"
+            Grid.Colunm="1"/>     
+       
+       <Grid>
+      </Frame>
+
+    <Frame x:Name="Nublado"
+       IsVisible= "false"
+       Margin= "10,20"   
+
 

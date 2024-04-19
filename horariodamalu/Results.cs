@@ -1,12 +1,21 @@
-Public Class Results 
-{
-Public Int Temp Description (get,set,);
-Public String description(get,set);
-Public String Temp (get,set);
-Public String Date (get,set);
-Public String Time (get,set);
-Public String Description (get,set);
-Public String Currenty (get,set);
-Public String City (get,set); 
-Public String Sunrise (get,set);
-}
+namespace horariodamalu;
+
+public int Temp {get; set;}
+
+public int Description {get;set;}
+
+public string Currently {get;set;}
+
+public string City {get;set;}
+
+public int Humidity {get;set;}
+
+public double Rain {get;set;}
+
+public string Sunrise {get;set;}
+
+public string Sunset {get;set;}
+
+public string Wind Speedy {get;set;}
+
+public int Wind_Direction {get;set;}

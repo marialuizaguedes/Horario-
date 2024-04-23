@@ -1,6 +1,6 @@
 namespace horariodamalu;
 
-public int Temp {get; set;}
+public int Temp {get;set;}
 
 public int Description {get;set;}
 
